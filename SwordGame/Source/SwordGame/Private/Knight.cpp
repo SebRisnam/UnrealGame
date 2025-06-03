@@ -27,6 +27,7 @@ AKnight::AKnight()
 void AKnight::BeginPlay()
 {
 	Super::BeginPlay();
+	PlayerActionState = E_PlayerActionState::EPAS_Idle;
 
 }
 
@@ -54,6 +55,11 @@ void AKnight::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 void AKnight::Move(const FInputActionInstance& Instance)
 {
+	if (PlayerActionState != E_PlayerActionState::EPAS_Idle)
+	{
+		return;
+	}
+	
 	FVector2D vector = Instance.GetValue().Get<FVector2D>();
 	//FVector forward = GetActorForwardVector();
 	//FVector right = GetActorRightVector();

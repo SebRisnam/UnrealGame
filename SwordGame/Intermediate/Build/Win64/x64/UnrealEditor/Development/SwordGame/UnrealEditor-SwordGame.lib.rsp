@@ -8,9 +8,10 @@
 /NODEFAULTLIB
 "D:\SwordGame\Intermediate\Build\Win64\x64\SwordGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h.obj"
 "D:\SwordGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SwordGame\Bird.gen.cpp.obj"
-"D:\SwordGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SwordGame\Knight.gen.cpp.obj"
-"D:\SwordGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SwordGame\SwordGame.init.gen.cpp.obj"
 "D:\SwordGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SwordGame\Item.gen.cpp.obj"
+"D:\SwordGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SwordGame\CharacterTypes.gen.cpp.obj"
+"D:\SwordGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SwordGame\SwordGame.init.gen.cpp.obj"
+"D:\SwordGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SwordGame\Knight.gen.cpp.obj"
 "D:\SwordGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SwordGame\SwordGame.cpp.obj"
 "D:\SwordGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SwordGame\Knight.cpp.obj"
 "D:\SwordGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SwordGame\Item.cpp.obj"

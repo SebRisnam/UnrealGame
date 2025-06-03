@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "InputAction.h"
 #include "GameFramework/Character.h"
+#include "CharacterTypes.h"
 #include "Knight.generated.h"
 
 class USpringArmComponent;
@@ -44,6 +45,9 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
+	UPROPERTY(BlueprintReadWrite)
+	E_PlayerActionState PlayerActionState;
 
 private:
 	

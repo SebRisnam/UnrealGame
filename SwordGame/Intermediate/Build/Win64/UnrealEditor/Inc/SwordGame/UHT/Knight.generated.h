@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SWORDGAME_Knight_generated_h
 
-#define FID_SwordGame_Source_SwordGame_Public_Knight_h_16_INCLASS_NO_PURE_DECLS \
+#define FID_SwordGame_Source_SwordGame_Public_Knight_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAKnight(); \
 	friend struct Z_Construct_UClass_AKnight_Statics; \
@@ -23,7 +23,7 @@ public: \
 	DECLARE_SERIALIZER(AKnight)
 
 
-#define FID_SwordGame_Source_SwordGame_Public_Knight_h_16_ENHANCED_CONSTRUCTORS \
+#define FID_SwordGame_Source_SwordGame_Public_Knight_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	AKnight(AKnight&&); \
@@ -35,12 +35,12 @@ public: \
 	NO_API virtual ~AKnight();
 
 
-#define FID_SwordGame_Source_SwordGame_Public_Knight_h_13_PROLOG
-#define FID_SwordGame_Source_SwordGame_Public_Knight_h_16_GENERATED_BODY \
+#define FID_SwordGame_Source_SwordGame_Public_Knight_h_14_PROLOG
+#define FID_SwordGame_Source_SwordGame_Public_Knight_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_SwordGame_Source_SwordGame_Public_Knight_h_16_INCLASS_NO_PURE_DECLS \
-	FID_SwordGame_Source_SwordGame_Public_Knight_h_16_ENHANCED_CONSTRUCTORS \
+	FID_SwordGame_Source_SwordGame_Public_Knight_h_17_INCLASS_NO_PURE_DECLS \
+	FID_SwordGame_Source_SwordGame_Public_Knight_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
