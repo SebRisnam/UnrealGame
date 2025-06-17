@@ -33,6 +33,8 @@ struct Z_Construct_UEnum_SwordGame_E_PlayerActionState_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+		{ "EPAS_Arming.DisplayName", "Arming" },
+		{ "EPAS_Arming.Name", "E_PlayerActionState::EPAS_Arming" },
 		{ "EPAS_Attacking.DisplayName", "Attacking" },
 		{ "EPAS_Attacking.Name", "E_PlayerActionState::EPAS_Attacking" },
 		{ "EPAS_Idle.DisplayName", "Idle" },
@@ -43,6 +45,7 @@ struct Z_Construct_UEnum_SwordGame_E_PlayerActionState_Statics
 	static constexpr UECodeGen_Private::FEnumeratorParam Enumerators[] = {
 		{ "E_PlayerActionState::EPAS_Idle", (int64)E_PlayerActionState::EPAS_Idle },
 		{ "E_PlayerActionState::EPAS_Attacking", (int64)E_PlayerActionState::EPAS_Attacking },
+		{ "E_PlayerActionState::EPAS_Arming", (int64)E_PlayerActionState::EPAS_Arming },
 	};
 	static const UECodeGen_Private::FEnumParams EnumParams;
 };
@@ -72,10 +75,10 @@ UEnum* Z_Construct_UEnum_SwordGame_E_PlayerActionState()
 struct Z_CompiledInDeferFile_FID_SwordGame_Source_SwordGame_Public_CharacterTypes_h_Statics
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
-		{ E_PlayerActionState_StaticEnum, TEXT("E_PlayerActionState"), &Z_Registration_Info_UEnum_E_PlayerActionState, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2063741086U) },
+		{ E_PlayerActionState_StaticEnum, TEXT("E_PlayerActionState"), &Z_Registration_Info_UEnum_E_PlayerActionState, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1708638097U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_SwordGame_Source_SwordGame_Public_CharacterTypes_h_2716255586(TEXT("/Script/SwordGame"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_SwordGame_Source_SwordGame_Public_CharacterTypes_h_1273738518(TEXT("/Script/SwordGame"),
 	nullptr, 0,
 	nullptr, 0,
 	Z_CompiledInDeferFile_FID_SwordGame_Source_SwordGame_Public_CharacterTypes_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_SwordGame_Source_SwordGame_Public_CharacterTypes_h_Statics::EnumInfo));

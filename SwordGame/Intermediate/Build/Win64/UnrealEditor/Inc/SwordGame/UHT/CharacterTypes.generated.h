@@ -21,7 +21,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define FOREACH_ENUM_E_PLAYERACTIONSTATE(op) \
 	op(E_PlayerActionState::EPAS_Idle) \
-	op(E_PlayerActionState::EPAS_Attacking) 
+	op(E_PlayerActionState::EPAS_Attacking) \
+	op(E_PlayerActionState::EPAS_Arming) 
 
 enum class E_PlayerActionState : uint8;
 template<> struct TIsUEnumClass<E_PlayerActionState> { enum { Value = true }; };

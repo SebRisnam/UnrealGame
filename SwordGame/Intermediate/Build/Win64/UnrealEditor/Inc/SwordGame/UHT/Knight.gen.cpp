@@ -85,7 +85,7 @@ const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AKnight_Static
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AKnight_Statics::NewProp_MoveAction = { "MoveAction", nullptr, (EPropertyFlags)0x0020080000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AKnight, MoveAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MoveAction_MetaData), NewProp_MoveAction_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AKnight_Statics::NewProp_LookAction = { "LookAction", nullptr, (EPropertyFlags)0x0020080000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AKnight, LookAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LookAction_MetaData), NewProp_LookAction_MetaData) };
 const UECodeGen_Private::FBytePropertyParams Z_Construct_UClass_AKnight_Statics::NewProp_PlayerActionState_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_AKnight_Statics::NewProp_PlayerActionState = { "PlayerActionState", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AKnight, PlayerActionState), Z_Construct_UEnum_SwordGame_E_PlayerActionState, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_PlayerActionState_MetaData), NewProp_PlayerActionState_MetaData) }; // 2063741086
+const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_AKnight_Statics::NewProp_PlayerActionState = { "PlayerActionState", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AKnight, PlayerActionState), Z_Construct_UEnum_SwordGame_E_PlayerActionState, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_PlayerActionState_MetaData), NewProp_PlayerActionState_MetaData) }; // 1708638097
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AKnight_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AKnight_Statics::NewProp_SpringArm,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AKnight_Statics::NewProp_Camera,
@@ -136,10 +136,10 @@ AKnight::~AKnight() {}
 struct Z_CompiledInDeferFile_FID_SwordGame_Source_SwordGame_Public_Knight_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AKnight, AKnight::StaticClass, TEXT("AKnight"), &Z_Registration_Info_UClass_AKnight, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AKnight), 1956191618U) },
+		{ Z_Construct_UClass_AKnight, AKnight::StaticClass, TEXT("AKnight"), &Z_Registration_Info_UClass_AKnight, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AKnight), 3934018262U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_SwordGame_Source_SwordGame_Public_Knight_h_3189420620(TEXT("/Script/SwordGame"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_SwordGame_Source_SwordGame_Public_Knight_h_2590440334(TEXT("/Script/SwordGame"),
 	Z_CompiledInDeferFile_FID_SwordGame_Source_SwordGame_Public_Knight_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_SwordGame_Source_SwordGame_Public_Knight_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
